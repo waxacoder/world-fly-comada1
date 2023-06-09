@@ -1,0 +1,268 @@
+#popular {
+    background-color: #2A3950;
+    width: 100%;
+    height: 988px;
+    background-image: url(../images/bg.png);
+    padding: 100px 0 100px 150px;
+    overflow: hidden;
+}
+
+.content-carusel {
+    text-align: center;
+}
+
+.content-carusel h1 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 112%;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 8px 14px rgba(0, 0, 0, 0.15);
+}
+
+#popular .carusel-run {
+    display: flex;
+    gap: 100px;
+}
+
+.content-carusel p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-top: 15px;
+}
+
+#popular .carusel-box {
+    background: #FFFFFF;
+    box-shadow: 0px 24px 100px rgba(36, 55, 91, 0.15);
+    border-radius: 50px;
+    width: 950px;
+    height: 600px;
+    padding: 30px 30px 30px 45px;
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+#popular .carusel-left .main {
+    display: flex;
+    gap: 20px;
+}
+
+#popular .carusel-left .main img {
+    margin-bottom: 50px;
+}
+
+
+#popular .carusel-left .main h2 {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #222222;
+}
+
+#popular .carusel-left .parag {
+    width: 484px;
+    height: 180px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#popular .carusel-left .parag p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #636668;
+}
+
+#popular .carusel-left .carusel-about {
+    display: flex;
+    justify-content: space-between;
+    width: 484px;
+}
+
+#popular .carusel-left .carusel-about div {
+    display: flex;
+    gap: 20px;
+}
+
+#popular .carusel-left .carusel-about h5 {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #636668;
+}
+
+#popular .carusel-left .carusel-about div span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+#popular .carusel-left .two-btn {
+    display: flex;
+    gap: 26px;
+    margin-top: 70px;
+    margin-left: 89px;
+}
+
+.carusel-btn {
+    padding: 16px 54px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #2A3950;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+    background: #00E0C7;
+    border: 2px solid #FFFFFF;
+    box-shadow: 3px 5px 10px rgba(0, 224, 199, 0.25);
+    border-radius: 10px;
+    transition: all .4s linear;
+}
+
+#popular .carusel-right img {
+    border-radius: 20px;
+}
+
+.carusel-btn:hover {
+    scale: 1.03;
+    background-color: #78e6d9;
+    color: #555;
+}
+
+/* package */
+#package {
+    background-color: #2A3950;
+    background-image: url(../images/mask-image.png);
+    height: 988px;
+    width: 100%;
+    padding: 100px 0 100px 150px;
+    overflow: hidden;
+}
+
+#package .arrow-main {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 150px;
+    margin-top: 50px;
+}
+
+#package .arrow-main .two-arrow img {
+    margin-right: 20px;
+}
+
+#package .arrow-main .package-btn {
+    padding: 19px 22px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 125%;
+    color: #2A3950;
+    background: #00E0C7;
+    border-radius: 15px;
+    border: none;
+}
+
+#package .arrow-main .package-btn img {
+    margin-left: 15px;
+}
+
+.right-left-arrow {
+    margin-top: 50px;
+    width: 450px;
+    display: flex;
+    gap: 100px;
+}
+
+.right-left-arrow .arrow-box .arrow-box-img {
+    background-image: url(../images/tower-autuom.png);
+    width: 450px;
+    height: 400px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    padding: 20px 20px 0 20px
+}
+
+.right-left-arrow .arrow-box .arrow-box-img .arrowing-btn {
+    margin-left: 208px;
+}
+
+.right-left-arrow .arrow-box .arrow-box-img button {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 125%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 11px;
+    background: rgba(42, 57, 80, 0.3);
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 7px 24px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.right-left-arrow .arrow-box h3 {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 125%;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.package-about {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.package-about div {
+    display: flex;
+}
+
+.right-left-arrow p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 125%;
+    color: #FFFFFF;
+    margin-left: 13px;
+}
+
+.package-about button {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+    color: #2A3950;
+    padding: 13px 27px;
+    background: #00E0C7;
+    border-radius: 10px;
+}
