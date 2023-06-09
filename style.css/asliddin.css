@@ -1,0 +1,151 @@
+.joinour{
+    background: #2A3950;
+}
+.joinour .top{
+    width: 1620px;
+    margin: 0 auto;
+}
+.joinour .top img{
+    width: 100%;
+}
+.joinour .bottom{
+    width: 1620px;
+    height: 434px;
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #006270;
+    border-radius: 50px;
+    gap: 50px;
+    padding: 70px;
+}
+.joinour .bottom .bottxt{
+    text-align: center;
+}
+.joinour .bottom .bottxt h1{
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 112%;
+}
+.joinour .bottom .bottxt p{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    opacity:  0.7;
+}
+.joinour .bottom input{
+    width: 1480px;
+    height: 106px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 50px;
+}
+input::-webkit-input-placeholder {
+    font-size: 30px;
+}
+.btnas{
+    position: absolute;
+    width: 300px;
+    height: 76px;
+    background: #00E0C7;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 14px 44px rgba(0, 224, 199, 0.2);
+    margin-top: -90px;
+    margin-left: 1165px;
+} 
+.btnas span{
+    color: #2A3950;
+    font-weight: 500;
+    font-size: 30px;
+}
+/* footer start */
+footer{
+    width: 100%;
+    height: 353px;
+    margin-top: 100px;
+    background: #006270;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.ftt{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 268px;
+}
+.ftleft{
+    width: 385px;
+}
+.ftlogo{
+    width: 385px;
+    height: 255px;
+}
+.ftlogo p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+}
+.ftright{
+    width: 800px;
+    height: 255px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ftright .txt{
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.ftright .txt a{
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+}
+.ftright .txt p{
+    color: #FFFFFF;
+    opacity: 0.7;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+}
+.ftright .txt:nth-child(1){
+    width: 161px;
+}
+.ftright .txt:nth-child(2){
+    width: 191px;
+}
+.ftright .txt:nth-child(3){
+    width: 171px;
+}
+/* end */
+.last{
+    width: 1650px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.last .lastlogo{
+    width: 326px;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+.last .lasttxt span{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #00E0C7;
+}
